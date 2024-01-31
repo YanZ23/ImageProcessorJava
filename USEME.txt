@@ -1,0 +1,27 @@
+# USEME
+
+## Instructions for Using the Image Processing Program's GUI
+
+This guide will explain how to use the Graphical User Interface (GUI) of our Image Processing Program. We've added this GUI feature to make it easy for users to navigate and perform various image manipulation operations.
+
+### Initial Selection
+
+From the main method, you have three different operational modes:
+
+1. `-file <path-to-script-file>`: When invoked in this manner, the program should open the script file, execute it, and then close.
+2. `-text`: When invoked in this manner, the program should open in an interactive text mode that allows the user to type in scripts and execute them one line at a time. This is how the program functioned in the previous assignments.
+3. `<enter>`: When invoked in this manner, the program should open the Graphical User Interface.
+
+The text interaction and file input methods are features that were covered in previous assignments. This time, we have added a GUI mode.
+
+### GUI Interaction
+
+Once you're in the GUI mode, you'll find the following elements:
+
+- **Load and Save Buttons**: At the top of the interface, you'll see two buttons - one for loading images and another for saving them.
+
+- **Functionality Buttons**: On the left side of the interface, you'll find various functionality buttons corresponding to different image processing operations. These operations work similarly to the ones in the text interaction mode. You'll be required to input certain parameters or IDs (as per the operation), and by pressing the corresponding button, the processed image will be generated.
+
+- **Image and Histogram Display**: The processed image will be displayed on the right side of the interface. The histogram representing the pixel distribution of the image will be updated and shown at the bottom of the interface after each operation.
+
+With this intuitive interface, users can easily perform a variety of image manipulation operations without the need for intricate command-line instructions.
